@@ -18,28 +18,28 @@ config.line_height = 1.0
 
 -- Colors
 config.colors = {
-	foreground = "#abb2bf", -- One Dark foreground
-	background = "#282c34", -- One Dark background
-	cursor_bg = "#528bff", -- Cursor background
-	cursor_fg = "#282c34", -- Cursor foreground
+	foreground = "#d0d0d0", -- Soft white foreground
+	background = "#1a1a1a", -- Dark background
+	cursor_bg = "#ffcc66", -- Cursor background (soft yellow)
+	cursor_fg = "#1a1a1a", -- Cursor foreground
 	ansi = {
-		"#282c34", -- black
-		"#e06c75", -- red
-		"#98c379", -- green
-		"#e5c07b", -- yellow
-		"#61afef", -- blue
-		"#c678dd", -- magenta
-		"#56b6c2", -- cyan
-		"#abb2bf", -- white
+		"#1a1a1a", -- black
+		"#ff5f5f", -- red
+		"#87d787", -- green
+		"#ffd787", -- yellow
+		"#5fafff", -- blue
+		"#af87ff", -- magenta
+		"#5fd7d7", -- cyan
+		"#d0d0d0", -- white
 	},
 	brights = {
-		"#5c6370", -- bright black
-		"#be5046", -- bright red
-		"#98c379", -- bright green
-		"#d19a66", -- bright yellow
-		"#61afef", -- bright blue
-		"#c678dd", -- bright magenta
-		"#56b6c2", -- bright cyan
+		"#808080", -- bright black
+		"#ff5f5f", -- bright red
+		"#87d787", -- bright green
+		"#ffd787", -- bright yellow
+		"#5fafff", -- bright blue
+		"#af87ff", -- bright magenta
+		"#5fd7d7", -- bright cyan
 		"#ffffff", -- bright white
 	},
 }
