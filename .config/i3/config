@@ -184,7 +184,7 @@ exec --no-startup-id redshift -O 3600
 
 # shortcut for ranger
 # could use "yazi"
-bindsym Mod4+e exec --no-startup-id wezterm -e ranger
+bindsym Mod4+e exec --no-startup-id wezterm -e yazi
 
 #enable touchpad tap
 # this works
