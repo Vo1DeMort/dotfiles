@@ -284,5 +284,6 @@
         "workbench.action.selectTheme"
       ]
     }
-  ]
+  ],
+  "workbench.colorTheme": "Solarized Dark+ (High Contrast)"
 }
