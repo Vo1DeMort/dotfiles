@@ -170,7 +170,10 @@ bindsym $mod+r mode "resize"
 #### these things need to be installed
 
 # set wallpaper with feh
-exec --no-startup-id feh --bg-scale ~/Pictures/wallpapers/starry-sky-night-with-landscape-mountains.jpg
+exec --no-startup-id feh --bg-scale ~/Pictures/1354205.jpeg
+
+# start picom
+exec --no-startup-id picom
 
 
 
@@ -204,9 +207,6 @@ bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 10
 
 # open obsidian
 bindsym $mod+o exec --no-startup-id obsidian
-
-# start picom (compositor)
-exec --no-startup-id picom
 
 
 # polybar

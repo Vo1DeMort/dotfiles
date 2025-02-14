@@ -18,29 +18,29 @@ config.line_height = 1.0
 
 -- Colors
 config.colors = {
-	foreground = "#d0d0d0", -- Soft white foreground
-	background = "#1a1a1a", -- Dark background
-	cursor_bg = "#ffcc66", -- Cursor background (soft yellow)
-	cursor_fg = "#1a1a1a", -- Cursor foreground
+	foreground = "#839496", -- Solarized base0 (soft grayish white)
+	background = "#002b36", -- Solarized base03 (dark background)
+	cursor_bg = "#268bd2", -- Solarized blue (cursor background)
+	cursor_fg = "#002b36", -- Solarized base03 (cursor foreground)
 	ansi = {
-		"#1a1a1a", -- black
-		"#ff5f5f", -- red
-		"#87d787", -- green
-		"#ffd787", -- yellow
-		"#5fafff", -- blue
-		"#af87ff", -- magenta
-		"#5fd7d7", -- cyan
-		"#d0d0d0", -- white
+		"#073642", -- black (Solarized base02)
+		"#dc322f", -- red (Solarized red)
+		"#859900", -- green (Solarized green)
+		"#b58900", -- yellow (Solarized yellow)
+		"#268bd2", -- blue (Solarized blue)
+		"#d33682", -- magenta (Solarized magenta)
+		"#2aa198", -- cyan (Solarized cyan)
+		"#eee8d5", -- white (Solarized base2)
 	},
 	brights = {
-		"#808080", -- bright black
-		"#ff5f5f", -- bright red
-		"#87d787", -- bright green
-		"#ffd787", -- bright yellow
-		"#5fafff", -- bright blue
-		"#af87ff", -- bright magenta
-		"#5fd7d7", -- bright cyan
-		"#ffffff", -- bright white
+		"#002b36", -- bright black (Solarized base03)
+		"#dc322f", -- bright red (Solarized red)
+		"#859900", -- bright green (Solarized green)
+		"#b58900", -- bright yellow (Solarized yellow)
+		"#268bd2", -- bright blue (Solarized blue)
+		"#d33682", -- bright magenta (Solarized magenta)
+		"#2aa198", -- bright cyan (Solarized cyan)
+		"#fdf6e3", -- bright white (Solarized base3)
 	},
 }
 
