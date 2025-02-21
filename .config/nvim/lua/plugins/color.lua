@@ -14,7 +14,6 @@ return {
       })
     end,
   },
-  { "doums/dark.nvim" },
 
   {
     "LazyVim/LazyVim",

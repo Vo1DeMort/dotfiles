@@ -89,7 +89,7 @@ bindsym $mod+e layout toggle split
 bindsym $mod+Shift+space floating toggle
 
 # change focus between tiling / floating windows
-bindsym $mod+space focus mode_toggle
+#bindsym $mod+space focus mode_toggle
 
 # focus the parent container
 bindsym $mod+a focus parent
@@ -179,7 +179,8 @@ exec --no-startup-id picom
 
 # rofi
 # i disabled d menu
-bindsym $mod+d exec rofi -show drun -display-drun "Applications"
+#bindsym $mod+d exec rofi -show drun -display-drun "Applications"
+bindsym $mod+space exec rofi -show drun -display-drun "Applications"
 
 # start redshift
 exec --no-startup-id redshift -O 3600
