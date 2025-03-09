@@ -37,7 +37,7 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec wezterm
+bindsym $mod+Return exec ghostty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -189,7 +189,7 @@ exec --no-startup-id redshift -O 3600
 # shortcut for ranger
 # could use "yazi"
 #bindsym Mod4+e exec --no-startup-id wezterm run yazi
-bindsym Mod4+e exec --no-startup-id wezterm -e ~/.cargo/bin/yazi
+bindsym Mod4+e exec --no-startup-id ghostty -e ~/.cargo/bin/yazi
 
 
 
@@ -225,6 +225,6 @@ bindsym Print exec --no-startup-id scrot ~/Pictures/screenshots/%Y-%m-%d_%H-%M-%
 
 
 # cmus music player
-bindsym $mod+m exec --no-startup-id wezterm -e cmus
+bindsym $mod+m exec --no-startup-id ghostty -e cmus
 
 

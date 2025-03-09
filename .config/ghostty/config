@@ -1,0 +1,9 @@
+# window
+window-decoration =none
+
+# backgroud
+background-opacity = 0.9
+background-blur = true
+
+# font
+font-size = 14
