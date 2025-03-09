@@ -2,28 +2,10 @@
 
 set $mod Mod1
 
-# Font for window titles. Will also be used by the bar unless a different font
-# is used in the bar {} block below.
-#font pango:monospace 8
 font JetBrains Mono 8
 
-# This font is widely installed, provides lots of unicode glyphs, right-to-left
-# text rendering and scalability on retina/hidpi displays (thanks to pango).
-#font pango:DejaVu Sans Mono 8
-
-# Start XDG autostart .desktop files using dex. See also
-# https://wiki.archlinux.org/index.php/XDG_Autostart
 exec --no-startup-id dex --autostart --environment i3
-
-# The combination of xss-lock, nm-applet and pactl is a popular choice, so
-# they are included here as an example. Modify as you see fit.
-
-# xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
-# screen before suspend. Use loginctl lock-session to lock your screen.
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
-
-# NetworkManager is the most popular way to manage wireless networks on Linux,
-# and nm-applet is a desktop environment-independent system tray GUI for it.
 exec --no-startup-id nm-applet
 
 # Use pactl to adjust volume in PulseAudio.
@@ -159,26 +141,12 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-# Start i3bar to display a workspace bar (plus the system information i3status
-# finds out, if available)
-# should mod this
-# bar {
-#         status_command i3status
-#         position top
-# }
-
-#### these things need to be installed
-
 # set wallpaper with feh
-exec --no-startup-id feh --bg-scale ~/Pictures/1354205.jpeg
+exec --no-startup-id feh --bg-scale ~/Pictures/plants.png
 
 # start picom
 exec --no-startup-id picom
 
-
-
-# rofi
-# i disabled d menu
 #bindsym $mod+d exec rofi -show drun -display-drun "Applications"
 bindsym $mod+space exec rofi -show drun -display-drun "Applications"
 
@@ -186,17 +154,8 @@ bindsym $mod+space exec rofi -show drun -display-drun "Applications"
 exec --no-startup-id redshift -O 3600
 
 
-# shortcut for ranger
-# could use "yazi"
 #bindsym Mod4+e exec --no-startup-id wezterm run yazi
 bindsym Mod4+e exec --no-startup-id ghostty -e ~/.cargo/bin/yazi
-
-
-
-#enable touchpad tap
-# this works
-#exec xinput set-prop "ASUE1307:00 04F3:3279 Touchpad" "libinput Tapping Enabled" 1
- 
 
 #i3 lock screen (with black color)
 # -i ~/path/to/pic
@@ -208,10 +167,8 @@ bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 10
 # Decrease brightness by 10%
 bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 10
 
-
 # open obsidian
 bindsym $mod+o exec --no-startup-id obsidian
-
 
 # polybar
 exec_always --no-startup-id sh -c "killall -q polybar; while pgrep -x polybar >/dev/null; do sleep 1; done; polybar example"
