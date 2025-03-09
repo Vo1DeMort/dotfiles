@@ -18,29 +18,29 @@ config.line_height = 1.0
 
 --color
 config.colors = {
-	foreground = "#dcd7ba", -- Kanagawa Fuji White (soft white)
-	background = "#1f1f28", -- Kanagawa Sakura Background (dark)
-	cursor_bg = "#c34043", -- Kanagawa Samurai Red (cursor background)
-	cursor_fg = "#1f1f28", -- Kanagawa Sakura Background (cursor foreground)
+	foreground = "#839496", -- Solarized base0 (soft grayish white)
+	background = "#002b36", -- Solarized base03 (dark background)
+	cursor_bg = "#268bd2", -- Solarized blue (cursor background)
+	cursor_fg = "#002b36", -- Solarized base03 (cursor foreground)
 	ansi = {
-		"#090618", -- black (Kanagawa Sumi Ink 1)
-		"#c34043", -- red (Kanagawa Samurai Red)
-		"#76946a", -- green (Kanagawa Spring Green)
-		"#c0a36e", -- yellow (Kanagawa Autumn Yellow)
-		"#7e9cd8", -- blue (Kanagawa Wave Blue)
-		"#957fb8", -- magenta (Kanagawa Sakura Pink)
-		"#6a9589", -- cyan (Kanagawa Dragon Blue)
-		"#c8c093", -- white (Kanagawa Old White)
+		"#073642", -- black (Solarized base02)
+		"#dc322f", -- red (Solarized red)
+		"#859900", -- green (Solarized green)
+		"#b58900", -- yellow (Solarized yellow)
+		"#268bd2", -- blue (Solarized blue)
+		"#d33682", -- magenta (Solarized magenta)
+		"#2aa198", -- cyan (Solarized cyan)
+		"#eee8d5", -- white (Solarized base2)
 	},
 	brights = {
-		"#727169", -- bright black (Kanagawa Sumi Ink 3)
-		"#e82424", -- bright red (Kanagawa Autumn Red)
-		"#98bb6c", -- bright green (Kanagawa Light Green)
-		"#e6c384", -- bright yellow (Kanagawa Light Yellow)
-		"#7fb4ca", -- bright blue (Kanagawa Crystal Blue)
-		"#938aa9", -- bright magenta (Kanagawa Lotus Pink)
-		"#7aa89f", -- bright cyan (Kanagawa Spring Blue)
-		"#dcd7ba", -- bright white (Kanagawa Fuji White)
+		"#002b36", -- bright black (Solarized base03)
+		"#dc322f", -- bright red (Solarized red)
+		"#859900", -- bright green (Solarized green)
+		"#b58900", -- bright yellow (Solarized yellow)
+		"#268bd2", -- bright blue (Solarized blue)
+		"#d33682", -- bright magenta (Solarized magenta)
+		"#2aa198", -- bright cyan (Solarized cyan)
+		"#fdf6e3", -- bright white (Solarized base3)
 	},
 }
 
