@@ -1,0 +1,42 @@
+2025-03-13 20:53:29.003 [info] [main] Log level: Info
+2025-03-13 20:53:29.004 [info] [main] Validating found git in: "git"
+2025-03-13 20:53:29.004 [info] [main] Using git "2.48.1" from "git"
+2025-03-13 20:53:29.004 [info] [Model][doInitialScan] Initial repository scan started
+2025-03-13 20:53:29.004 [info] > git rev-parse --show-toplevel [3ms]
+2025-03-13 20:53:29.004 [info] > git rev-parse --git-dir --git-common-dir [154ms]
+2025-03-13 20:53:29.004 [info] [Model][openRepository] Opened repository: /home/ye_yint/curiousty/lichess-mobile
+2025-03-13 20:53:29.031 [info] > git rev-parse --show-toplevel [15ms]
+2025-03-13 20:53:29.032 [info] > git config --get commit.template [21ms]
+2025-03-13 20:53:29.076 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [35ms]
+2025-03-13 20:53:29.084 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ye_yint/curiousty/lichess-mobile/.git/refs/remotes/origin/main'
+2025-03-13 20:53:29.092 [info] > git rev-parse refs/remotes/origin/main [8ms]
+2025-03-13 20:53:29.110 [info] > git rev-parse --show-toplevel [20ms]
+2025-03-13 20:53:29.129 [info] > git status -z -uall [30ms]
+2025-03-13 20:53:29.130 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [22ms]
+2025-03-13 20:53:29.177 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2025-03-13 20:53:29.186 [info] > git rev-parse --show-toplevel [58ms]
+2025-03-13 20:53:29.197 [info] > git config --get --local branch.main.vscode-merge-base [11ms]
+2025-03-13 20:53:29.206 [info] > git config --get commit.template [29ms]
+2025-03-13 20:53:29.207 [info] > git rev-parse --show-toplevel [11ms]
+2025-03-13 20:53:29.224 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [19ms]
+2025-03-13 20:53:29.236 [info] > git merge-base refs/heads/main refs/remotes/origin/main [3ms]
+2025-03-13 20:53:29.245 [info] > git rev-parse --show-toplevel [22ms]
+2025-03-13 20:53:29.245 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [31ms]
+2025-03-13 20:53:29.262 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ye_yint/curiousty/lichess-mobile/.git/refs/remotes/origin/main'
+2025-03-13 20:53:29.262 [info] > git diff --name-status -z --diff-filter=ADMR 408748bc0e1a2270d6ebdc6ba4577f7145f78331...refs/remotes/origin/main [17ms]
+2025-03-13 20:53:29.265 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2025-03-13 20:53:29.278 [info] > git rev-parse --show-toplevel [24ms]
+2025-03-13 20:53:29.287 [info] > git status -z -uall [16ms]
+2025-03-13 20:53:29.287 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [10ms]
+2025-03-13 20:53:29.292 [info] > git rev-parse --show-toplevel [6ms]
+2025-03-13 20:53:29.302 [info] > git rev-parse --show-toplevel [3ms]
+2025-03-13 20:53:29.311 [info] > git rev-parse --show-toplevel [2ms]
+2025-03-13 20:53:29.321 [info] > git rev-parse --show-toplevel [3ms]
+2025-03-13 20:53:29.330 [info] > git rev-parse --show-toplevel [2ms]
+2025-03-13 20:53:29.339 [info] > git rev-parse --show-toplevel [2ms]
+2025-03-13 20:53:29.343 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-03-13 20:53:29.361 [info] > git ls-files --stage -- /home/ye_yint/curiousty/lichess-mobile/lib/firebase_options.dart [3ms]
+2025-03-13 20:53:29.368 [info] > git show --textconv :lib/firebase_options.dart [17ms]
+2025-03-13 20:53:29.369 [info] > git cat-file -s ef113f652b8d20e953f520ea80105fa3a45f9ed2 [2ms]
+2025-03-13 20:53:29.446 [info] > git check-ignore -v -z --stdin [3ms]
+2025-03-13 20:53:29.468 [info] > git blame --root --incremental 408748bc0e1a2270d6ebdc6ba4577f7145f78331 -- /home/ye_yint/curiousty/lichess-mobile/lib/firebase_options.dart [73ms]

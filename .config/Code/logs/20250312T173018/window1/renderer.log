@@ -1,0 +1,11 @@
+2025-03-12 17:30:19.097 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-03-12 17:30:19.098 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-03-12 17:30:19.098 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-03-12 17:30:19.098 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'redhat.java' wants API proposal 'documentPaste' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-03-12 17:30:19.502 [error] lock() request could not be registered.: Error: lock() request could not be registered.
+2025-03-12 17:30:19.506 [info] Started local extension host with pid 68263.
+2025-03-12 17:30:20.501 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-03-12 17:30:22.452 [info] [perf] Render performance baseline is 40ms
+2025-03-12 17:31:53.640 [error] lock() request could not be registered.: Error: lock() request could not be registered.
+2025-03-12 17:32:27.564 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-03-12 17:32:41.810 [warning] Settings pattern "issueReporter.*" doesn't match any settings

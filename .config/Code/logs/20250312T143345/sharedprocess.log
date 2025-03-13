@@ -1,0 +1,6 @@
+2025-03-12 14:34:32.740 [info] Getting Manifest... dahong.theme-bear
+2025-03-12 14:34:33.123 [info] Installing extension: dahong.theme-bear {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ye_yint/.vscode/extensions/extensions.json","path":"/home/ye_yint/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.97.2","date":"2025-02-12T23:20:35.343Z"}}
+2025-03-12 14:35:11.641 [info] Extension signature verification result for dahong.theme-bear: Success. Executed: true. Duration: 31086ms.
+2025-03-12 14:35:11.748 [info] Extracted extension to file:///home/ye_yint/.vscode/extensions/dahong.theme-bear-2.1.0: dahong.theme-bear
+2025-03-12 14:35:11.760 [info] Renamed to /home/ye_yint/.vscode/extensions/dahong.theme-bear-2.1.0
+2025-03-12 14:35:11.789 [info] Extension installed successfully: dahong.theme-bear vscode-userdata:/home/ye_yint/.vscode/extensions/extensions.json

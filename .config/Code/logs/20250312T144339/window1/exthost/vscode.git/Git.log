@@ -1,0 +1,48 @@
+2025-03-12 14:43:42.511 [info] [main] Log level: Info
+2025-03-12 14:43:42.511 [info] [main] Validating found git in: "git"
+2025-03-12 14:43:42.511 [info] [main] Using git "2.48.1" from "git"
+2025-03-12 14:43:42.511 [info] [Model][doInitialScan] Initial repository scan started
+2025-03-12 14:43:42.511 [info] > git rev-parse --show-toplevel [8ms]
+2025-03-12 14:43:42.511 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2025-03-12 14:43:42.511 [info] [Model][openRepository] Opened repository: /home/ye_yint/.now/DSA-with-dart
+2025-03-12 14:43:42.532 [info] > git config --get commit.template [12ms]
+2025-03-12 14:43:42.685 [info] > git rev-parse --show-toplevel [157ms]
+2025-03-12 14:43:42.749 [info] > git rev-parse --show-toplevel [12ms]
+2025-03-12 14:43:42.750 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [20ms]
+2025-03-12 14:43:42.765 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ye_yint/.now/DSA-with-dart/.git/refs/remotes/origin/main'
+2025-03-12 14:43:42.788 [info] > git rev-parse --show-toplevel [29ms]
+2025-03-12 14:43:42.797 [info] > git rev-parse refs/remotes/origin/main [32ms]
+2025-03-12 14:43:42.814 [info] > git status -z -uall [10ms]
+2025-03-12 14:43:42.815 [info] > git rev-parse --show-toplevel [19ms]
+2025-03-12 14:43:42.818 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-03-12 14:43:42.820 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+2025-03-12 14:43:42.852 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2025-03-12 14:43:42.869 [info] > git config --get --local branch.main.vscode-merge-base [10ms]
+2025-03-12 14:43:42.880 [info] > git config --get commit.template [28ms]
+2025-03-12 14:43:42.882 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [3ms]
+2025-03-12 14:43:42.905 [info] > git merge-base refs/heads/main refs/remotes/origin/main [13ms]
+2025-03-12 14:43:42.918 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2025-03-12 14:43:42.928 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ye_yint/.now/DSA-with-dart/.git/refs/remotes/origin/main'
+2025-03-12 14:43:42.928 [info] > git diff --name-status -z --diff-filter=ADMR 1341d4735985c34b2f405c406b4242220a889eb7...refs/remotes/origin/main [14ms]
+2025-03-12 14:43:42.931 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2025-03-12 14:43:42.965 [info] > git status -z -uall [25ms]
+2025-03-12 14:43:42.965 [info] > git show --textconv :linked_list/linklist.dart [10ms]
+2025-03-12 14:43:42.966 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [19ms]
+2025-03-12 14:43:42.972 [info] > git ls-files --stage -- /home/ye_yint/.now/DSA-with-dart/linked_list/linklist.dart [8ms]
+2025-03-12 14:43:42.984 [info] > git cat-file -s dc92304cf331278e581c5d9e2d2071428a6928f4 [4ms]
+2025-03-12 14:43:43.024 [info] > git blame --root --incremental 1341d4735985c34b2f405c406b4242220a889eb7 -- /home/ye_yint/.now/DSA-with-dart/linked_list/linklist.dart [4ms]
+2025-03-12 14:43:43.193 [info] > git check-ignore -v -z --stdin [2ms]
+2025-03-12 14:44:07.221 [info] > git show --textconv :linked_list/node.dart [7ms]
+2025-03-12 14:44:07.223 [info] > git ls-files --stage -- /home/ye_yint/.now/DSA-with-dart/linked_list/node.dart [2ms]
+2025-03-12 14:44:07.233 [info] > git cat-file -s 87267627940cc414fe0aed8777d7a0cdc6b5d7ef [2ms]
+2025-03-12 14:44:09.129 [info] > git show --textconv :linked_list/test_linked_list.dart [8ms]
+2025-03-12 14:44:09.130 [info] > git ls-files --stage -- /home/ye_yint/.now/DSA-with-dart/linked_list/test_linked_list.dart [2ms]
+2025-03-12 14:44:09.139 [info] > git cat-file -s 5e2d9dbb0f1e931c6fb96d32bb3da0810ca05c44 [3ms]
+2025-03-12 14:44:10.499 [info] > git show --textconv :stacks/exercise.dart [8ms]
+2025-03-12 14:44:10.500 [info] > git ls-files --stage -- /home/ye_yint/.now/DSA-with-dart/stacks/exercise.dart [2ms]
+2025-03-12 14:44:10.511 [info] > git cat-file -s cc2885bc7fe81cc6b93b7aaad320b481251c38ef [3ms]
+2025-03-12 14:44:10.530 [info] > git blame --root --incremental 1341d4735985c34b2f405c406b4242220a889eb7 -- /home/ye_yint/.now/DSA-with-dart/stacks/exercise.dart [3ms]
+2025-03-12 14:44:11.358 [info] > git show --textconv :stacks/stack.dart [14ms]
+2025-03-12 14:44:11.359 [info] > git ls-files --stage -- /home/ye_yint/.now/DSA-with-dart/stacks/stack.dart [2ms]
+2025-03-12 14:44:11.370 [info] > git cat-file -s eb91e728fb509505912d22f937419915f2d3ac69 [3ms]
+2025-03-12 14:44:11.393 [info] > git blame --root --incremental 1341d4735985c34b2f405c406b4242220a889eb7 -- /home/ye_yint/.now/DSA-with-dart/stacks/stack.dart [4ms]

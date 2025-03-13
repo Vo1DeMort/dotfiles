@@ -1,0 +1,38 @@
+2025-03-13 20:53:29.842 [info] Configuration changed
+2025-03-13 20:53:30.919 [info] Configuration changed
+2025-03-13 20:53:31.908 [warning] invalid cursor position. [[29, 59] | [29, 59]].
+2025-03-13 20:53:32.556 [warning] invalid cursor position. [[28, 59] | [28, 59]].
+2025-03-13 20:53:32.596 [warning] invalid cursor position. [[27, 59] | [27, 59]].
+2025-03-13 20:53:32.636 [warning] invalid cursor position. [[26, 59] | [26, 59]].
+2025-03-13 20:53:32.673 [warning] invalid cursor position. [[25, 59] | [25, 59]].
+2025-03-13 20:53:32.713 [warning] invalid cursor position. [[24, 59] | [24, 59]].
+2025-03-13 20:53:32.759 [warning] invalid cursor position. [[23, 59] | [23, 59]].
+2025-03-13 20:53:32.797 [warning] invalid cursor position. [[22, 59] | [22, 59]].
+2025-03-13 20:53:32.836 [warning] invalid cursor position. [[21, 59] | [21, 59]].
+2025-03-13 20:53:32.958 [warning] invalid cursor position. [[18, 59] | [18, 59]].
+2025-03-13 20:53:32.994 [warning] invalid cursor position. [[17, 59] | [17, 59]].
+2025-03-13 20:53:33.036 [warning] invalid cursor position. [[16, 59] | [16, 59]].
+2025-03-13 20:53:33.086 [warning] invalid cursor position. [[15, 59] | [15, 59]].
+2025-03-13 20:53:33.116 [warning] invalid cursor position. [[14, 59] | [14, 59]].
+2025-03-13 20:53:33.162 [warning] invalid cursor position. [[13, 59] | [13, 59]].
+2025-03-13 20:53:33.200 [warning] invalid cursor position. [[12, 59] | [12, 59]].
+2025-03-13 20:53:33.239 [warning] invalid cursor position. [[11, 59] | [11, 59]].
+2025-03-13 20:53:33.283 [warning] invalid cursor position. [[10, 59] | [10, 59]].
+2025-03-13 20:53:33.320 [warning] invalid cursor position. [[9, 59] | [9, 59]].
+2025-03-13 20:53:33.918 [warning] invalid cursor position. [[10, 59] | [10, 59]].
+2025-03-13 20:54:22.724 [warning] invalid cursor position. [[47, 8] | [47, 8]].
+2025-03-13 20:54:22.758 [warning] invalid cursor position. [[48, 8] | [48, 8]].
+2025-03-13 20:54:22.801 [warning] invalid cursor position. [[49, 8] | [49, 8]].
+2025-03-13 20:54:23.089 [warning] invalid cursor position. [[56, 8] | [56, 8]].
+2025-03-13 20:54:23.927 [warning] invalid cursor position. [[57, 8] | [57, 8]].
+2025-03-13 20:54:24.947 [warning] invalid cursor position. [[67, 8] | [67, 8]].
+2025-03-13 20:54:24.984 [warning] invalid cursor position. [[68, 8] | [68, 8]].
+2025-03-13 20:54:25.056 [warning] invalid cursor position. [[69, 8] | [69, 8]].
+2025-03-13 20:54:27.074 [warning] invalid cursor position. [[68, 8] | [68, 8]].
+2025-03-13 20:54:27.735 [warning] invalid cursor position. [[67, 8] | [67, 8]].
+2025-03-13 20:54:29.092 [warning] invalid cursor position. [[57, 9] | [57, 9]].
+2025-03-13 20:54:29.151 [warning] invalid cursor position. [[56, 9] | [56, 9]].
+2025-03-13 20:54:29.412 [warning] invalid cursor position. [[49, 9] | [49, 9]].
+2025-03-13 20:54:29.455 [warning] invalid cursor position. [[48, 9] | [48, 9]].
+2025-03-13 20:54:29.497 [warning] invalid cursor position. [[47, 9] | [47, 9]].
+2025-03-13 20:54:31.611 [info] Executing :q
