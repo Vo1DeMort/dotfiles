@@ -1,0 +1,6 @@
+2025-03-15 12:37:50.376 [info] Getting Manifest... vue.volar
+2025-03-15 12:37:50.757 [info] Installing extension: vue.volar {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ye_yint/.vscode/extensions/extensions.json","path":"/home/ye_yint/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.97.2","date":"2025-02-12T23:20:35.343Z"}}
+2025-03-15 12:38:24.579 [info] Extension signature verification result for vue.volar: Success. Executed: true. Duration: 31173ms.
+2025-03-15 12:38:24.673 [info] Extracted extension to file:///home/ye_yint/.vscode/extensions/vue.volar-2.2.8: vue.volar
+2025-03-15 12:38:24.685 [info] Renamed to /home/ye_yint/.vscode/extensions/vue.volar-2.2.8
+2025-03-15 12:38:24.712 [info] Extension installed successfully: vue.volar vscode-userdata:/home/ye_yint/.vscode/extensions/extensions.json

@@ -9,14 +9,20 @@
                 "folderUri": "file:///home/ye_yint/curiousty/lichess-mobile"
             }
         ],
-        "emptyWindows": []
+        "emptyWindows": [
+            {
+                "backupFolder": "1742018855352"
+            }
+        ]
     },
     "profileAssociations": {
         "workspaces": {
             "file:///home/ye_yint/.now/DSA-with-dart": "__default__profile__",
             "file:///home/ye_yint/curiousty/lichess-mobile": "__default__profile__"
         },
-        "emptyWindows": {}
+        "emptyWindows": {
+            "1742018855352": "__default__profile__"
+        }
     },
     "lastKnownMenubarData": {
         "menus": {
@@ -1695,13 +1701,12 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/ye_yint/curiousty/lichess-mobile",
-            "backupPath": "/home/ye_yint/.config/Code/Backups/8fe85b3eca651fbe289557d5d535a637",
+            "backupPath": "/home/ye_yint/.config/Code/Backups/1742018855352",
             "uiState": {
-                "mode": 0,
-                "x": 0,
+                "mode": 1,
+                "x": 960,
                 "y": 28,
-                "width": 1920,
+                "width": 960,
                 "height": 1172,
                 "zoomLevel": 1
             }

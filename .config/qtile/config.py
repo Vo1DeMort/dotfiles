@@ -1,10 +1,12 @@
 
-from libqtile import bar, layout, qtile, widget
+from libqtile import bar, layout, qtile, widget, hook
 from libqtile.config import Click, Drag, Group, Key, Match, Screen
 from libqtile.lazy import lazy
 from libqtile.utils import guess_terminal
+import os 
+import subprocess
 
-mod = "mod1" # alter key
+mod = "mod4" # alter key
 terminal = "ghostty"
 
 keys = [
@@ -67,7 +69,6 @@ for vt in range(1, 8):
         )
     )
 
-
 groups = [Group(i) for i in "123456789"]
 
 for i in groups:
@@ -111,7 +112,7 @@ layouts = [
 ]
 
 widget_defaults = dict(
-    font="sans",
+    font="JetBrains Mono",
     fontsize=12,
     padding=3,
 )
@@ -199,3 +200,14 @@ wl_xcursor_size = 24
 # We choose LG3D to maximize irony: it is a 3D non-reparenting WM written in
 # java that happens to be on java's whitelist.
 wmname = "LG3D"
+
+
+""" following configs might require to install 3rd prarty programs """
+
+""" start up programs """
+@hook.subscribe.startup
+def startUp():
+    scripPath = os.path.expanduser("~/.dotfiles/.config/qtile/startUp.sh.")
+    subprocess.call(scripPath)
+
+
