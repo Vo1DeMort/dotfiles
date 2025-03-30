@@ -9,7 +9,7 @@ return {
       vim.o.background = "dark"
       require("solarized").setup({
         transparent = {
-          enabled = false,
+          enabled = true,
         },
         palette = "solarized", -- solarized (default) | selenized
         variant = "autumn", -- "spring" | "summer" | "autumn" | "winter" (default)
