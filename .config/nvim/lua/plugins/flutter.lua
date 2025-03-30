@@ -1,6 +1,4 @@
 return {
-  -- dependency for flutter-tools
-  { "nvim-lua/plenary.nvim" },
   {
     "nvim-flutter/flutter-tools.nvim",
     lazy = false,
@@ -10,12 +8,4 @@ return {
     },
     config = true,
   },
-  config = function()
-    require("flutter-tools").setup({
-      ui = {
-        border = "rounded",
-        notification_style = "native" | "plugin",
-      },
-    })
-  end,
 }
