@@ -1,4 +1,5 @@
 return {
+
   {
     "maxmx03/solarized.nvim",
     lazy = false,
@@ -8,48 +9,19 @@ return {
       vim.o.background = "dark"
       require("solarized").setup({
         transparent = {
-          enabled = true,
+          enabled = false,
         },
+        palette = "solarized", -- solarized (default) | selenized
+        variant = "autumn", -- "spring" | "summer" | "autumn" | "winter" (default)
       })
     end,
   },
-
-  {
-    "rebelot/kanagawa.nvim",
-    config = function()
-      require("kanagawa").setup({
-        colors = {
-          theme = {
-            all = {
-              ui = {
-                bg_gutter = "none",
-              },
-            },
-          },
-        },
-      })
-    end,
-  },
-  -- lua/plugins/rose-pine.lua
-  {
-    "rose-pine/neovim",
-    name = "rose-pine",
-    config = function()
-      require("rose-pine").setup({
-
-        styles = {
-          bold = true,
-          italic = true,
-          transparency = true,
-        },
-      })
-    end,
-  },
+  { "shaunsingh/nord.nvim" },
 
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "kanagawa",
+      colorscheme = "solarized",
     },
   },
 }

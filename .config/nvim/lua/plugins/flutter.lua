@@ -10,4 +10,12 @@ return {
     },
     config = true,
   },
+  config = function()
+    require("flutter-tools").setup({
+      ui = {
+        border = "rounded",
+        notification_style = "native" | "plugin",
+      },
+    })
+  end,
 }

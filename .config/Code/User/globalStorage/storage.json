@@ -7,22 +7,21 @@
         "folders": [
             {
                 "folderUri": "file:///home/ye_yint/curiousty/lichess-mobile"
+            },
+            {
+                "folderUri": "file:///home/ye_yint/.dotfiles"
             }
         ],
-        "emptyWindows": [
-            {
-                "backupFolder": "1742018855352"
-            }
-        ]
+        "emptyWindows": []
     },
     "profileAssociations": {
         "workspaces": {
             "file:///home/ye_yint/.now/DSA-with-dart": "__default__profile__",
-            "file:///home/ye_yint/curiousty/lichess-mobile": "__default__profile__"
+            "file:///home/ye_yint/curiousty/lichess-mobile": "__default__profile__",
+            "file:///home/ye_yint/dart/dart-advance-features": "__default__profile__",
+            "file:///home/ye_yint/.dotfiles": "__default__profile__"
         },
-        "emptyWindows": {
-            "1742018855352": "__default__profile__"
-        }
+        "emptyWindows": {}
     },
     "lastKnownMenubarData": {
         "menus": {
@@ -1701,42 +1700,40 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/ye_yint/.config/Code/Backups/1742018855352",
+            "folder": "file:///home/ye_yint/.dotfiles",
+            "backupPath": "/home/ye_yint/.config/Code/Backups/9392d6373f09c53f24b4b2e27255e746",
             "uiState": {
                 "mode": 1,
-                "x": 0,
-                "y": 0,
-                "width": 1920,
-                "height": 1200,
+                "x": 960,
+                "y": 28,
+                "width": 960,
+                "height": 1172,
                 "zoomLevel": 1
             }
         },
         "openedWindows": []
     },
     "theme": "vs-dark",
-    "themeBackground": "#1f2023",
+    "themeBackground": "#002b36",
     "windowSplash": {
         "zoomLevel": 0,
         "baseTheme": "vs-dark",
         "colorInfo": {
-            "foreground": "#bcb28d",
-            "background": "#1f2023",
-            "editorBackground": "#1f2023",
-            "titleBarBackground": "#1f2023",
-            "activityBarBackground": "#1f2023",
-            "activityBarBorder": "#1f2023",
-            "sideBarBackground": "#1f2023",
-            "sideBarBorder": "#1f2023",
-            "statusBarBackground": "#1f2023",
-            "statusBarBorder": "#1f2023",
-            "statusBarNoFolderBackground": "#1f2023"
+            "foreground": "#cccccc",
+            "background": "#002b36",
+            "editorBackground": "#002b36",
+            "titleBarBackground": "#002c39",
+            "activityBarBackground": "#003847",
+            "sideBarBackground": "#00212b",
+            "statusBarBackground": "#00212b",
+            "statusBarNoFolderBackground": "#00212b"
         },
         "layoutInfo": {
             "sideBarSide": "right",
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 170,
+            "sideBarWidth": 0,
             "auxiliarySideBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
