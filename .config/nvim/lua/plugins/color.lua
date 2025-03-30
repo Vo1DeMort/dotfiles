@@ -16,7 +16,6 @@ return {
       })
     end,
   },
-  { "shaunsingh/nord.nvim" },
 
   {
     "LazyVim/LazyVim",
