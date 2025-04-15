@@ -1,18 +1,12 @@
 return {
 
   {
-    "maxmx03/solarized.nvim",
-    lazy = false,
-    priority = 1000,
+    "EdenEast/nightfox.nvim",
     config = function()
-      vim.o.termguicolors = true
-      vim.o.background = "dark"
-      require("solarized").setup({
-        transparent = {
-          enabled = true,
+      require("nightfox").setup({
+        options = {
+          transparent = false,
         },
-        palette = "solarized", -- solarized (default) | selenized
-        variant = "autumn", -- "spring" | "summer" | "autumn" | "winter" (default)
       })
     end,
   },
@@ -20,7 +14,8 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "solarized",
+      --colorscheme = "tokyonight-night",
+      colorscheme = "nightfox",
     },
   },
 }
