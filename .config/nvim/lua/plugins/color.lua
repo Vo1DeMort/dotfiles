@@ -13,29 +13,20 @@ return {
     end,
   },
   {
-    "rebelot/kanagawa.nvim",
-    config = function()
-      require("kanagawa").setup({
-        commentStyle = { italic = false },
-        keywordStyle = { italic = false },
-        colors = {
-          theme = {
-            all = {
-              ui = {
-                bg_gutter = "none",
-              },
-            },
-          },
-        },
-      })
-    end,
+    "maxmx03/solarized.nvim",
+    opts = {
+      variant = "autumn", -- "spring" | "summer" | "autumn" | "winter" (default)
+      transparent = {
+        enabled = true,
+      },
+    },
   },
 
   {
     "LazyVim/LazyVim",
     opts = {
       --colorscheme = "sonokai",
-      colorscheme = "kanagawa",
+      colorscheme = "solarized",
     },
   },
 }
