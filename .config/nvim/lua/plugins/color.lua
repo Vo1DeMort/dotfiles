@@ -1,11 +1,31 @@
 return {
 
   {
-    "EdenEast/nightfox.nvim",
+    "sainnhe/sonokai",
+    lazy = false,
+    priority = 1000,
     config = function()
-      require("nightfox").setup({
-        options = {
-          transparent = false,
+      -- Optionally configure and load the colorscheme
+      -- directly inside the plugin declaration.
+      -- maia
+      --vim.g.sonokai_style = "maia"
+      vim.g.sonokai_better_performance = 1
+    end,
+  },
+  {
+    "rebelot/kanagawa.nvim",
+    config = function()
+      require("kanagawa").setup({
+        commentStyle = { italic = false },
+        keywordStyle = { italic = false },
+        colors = {
+          theme = {
+            all = {
+              ui = {
+                bg_gutter = "none",
+              },
+            },
+          },
         },
       })
     end,
@@ -14,8 +34,8 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      --colorscheme = "tokyonight-night",
-      colorscheme = "nightfox",
+      --colorscheme = "sonokai",
+      colorscheme = "kanagawa",
     },
   },
 }
