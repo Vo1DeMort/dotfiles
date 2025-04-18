@@ -23,19 +23,58 @@ set recolor-keephue true
 
 
 #NOTE: solazied theme
-set default-bg "#002b36"        # Solarized dark background
-set default-fg "#839496"        # Solarized light text
+# set default-bg "#002b36"        # Solarized dark background
+# set default-fg "#839496"        # Solarized light text
+#
+# set recolor-lightcolor "#002b36"   # Solarized dark color for light mode
+# set recolor-darkcolor "#839496"    # Solarized light color for dark mode
+#
+# set statusbar-bg "#073642"    # Solarized status bar background
+# set statusbar-fg "#93a1a1"    # Solarized status bar text
+#
+# set inputbar-bg "#073642"     # Solarized input bar background
+# set inputbar-fg "#93a1a1"     # Solarized input bar text
+#
+# set completion-bg "#073642"    # Solarized completion background
+# set completion-fg "#93a1a1"    # Solarized completion text
+# set notification-bg "#073642"  # Solarized notification background
+# set notification-fg "#93a1a1"  # Solarized notification text
 
-set recolor-lightcolor "#002b36"   # Solarized dark color for light mode
-set recolor-darkcolor "#839496"    # Solarized light color for dark mode
+# NOTE: Solarized Osaka Theme
+# set default-bg      "#001f27"  # Osaka deep background
+# set default-fg      "#d3c6aa"  # Osaka soft foreground
+#
+# set recolor-lightcolor "#001f27"  # Osaka dark base for light mode
+# set recolor-darkcolor  "#d3c6aa"  # Osaka light base for dark mode
+#
+# set statusbar-bg    "#00303d"  # Osaka bar background
+# set statusbar-fg    "#a7c080"  # Osaka status text (soft green)
+#
+# set inputbar-bg     "#00303d"  # Matches status bar
+# set inputbar-fg     "#e67e80"  # Osaka coral highlight
+#
+# set completion-bg   "#00303d"  # Completion dropdown background
+# set completion-fg   "#d699b6"  # Lavender/pink tone for text
+#
+# set notification-bg "#00303d"  # Notification background
+# set notification-fg "#83c092"  # Soft teal for notification text
 
-set statusbar-bg "#073642"    # Solarized status bar background
-set statusbar-fg "#93a1a1"    # Solarized status bar text
+# NOTE: Gruvbox Light Medium Theme
+set default-bg      "#f2e5bc"  # Medium contrast background
+set default-fg      "#3c3836"  # Standard dark foreground
 
-set inputbar-bg "#073642"     # Solarized input bar background
-set inputbar-fg "#93a1a1"     # Solarized input bar text
+set recolor-lightcolor "#f2e5bc"  # Light background (medium variant)
+set recolor-darkcolor  "#3c3836"  # Gruvbox dark text
 
-set completion-bg "#073642"    # Solarized completion background
-set completion-fg "#93a1a1"    # Solarized completion text
-set notification-bg "#073642"  # Solarized notification background
-set notification-fg "#93a1a1"  # Solarized notification text
+set statusbar-bg    "#e0cfa9"  # Bar background (darker than main)
+set statusbar-fg    "#504945"  # Muted dark grey
+
+set inputbar-bg     "#e0cfa9"  # Match status bar
+set inputbar-fg     "#af3a03"  # Deep orange (accent)
+
+set completion-bg   "#e0cfa9"  # Completion box background
+set completion-fg   "#79740e"  # Gruvbox olive
+
+set notification-bg "#e0cfa9"  # Notification background
+set notification-fg "#9d0006"  # Gruvbox red for alerts
+
