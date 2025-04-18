@@ -1,0 +1,19 @@
+set recolor true
+set recolor-keephue true
+
+set default-bg "#282828"        # Gruvbox dark background
+set default-fg "#ebdbb2"        # Gruvbox light text
+
+set recolor-lightcolor "#282828"
+set recolor-darkcolor "#ebdbb2"
+
+set statusbar-bg "#3c3836"
+set statusbar-fg "#fabd2f"
+
+set inputbar-bg "#3c3836"
+set inputbar-fg "#fabd2f"
+
+set completion-bg "#3c3836"
+set completion-fg "#fabd2f"
+set notification-bg "#3c3836"
+set notification-fg "#fabd2f"
