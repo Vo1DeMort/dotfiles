@@ -134,7 +134,7 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # set wallpaper with feh
-exec --no-startup-id feh --bg-scale ~/Pictures/sunSet.png
+exec --no-startup-id feh --bg-scale ~/Pictures/1358524.png
 
 # start picom
 exec --no-startup-id picom
