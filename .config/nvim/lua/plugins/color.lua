@@ -1,20 +1,14 @@
 return {
 
-  {
-    "maxmx03/solarized.nvim",
-    opts = {
-      variant = "autumn", -- "spring" | "summer" | "autumn" | "winter" (default)
-      transparent = {
-        enabled = true,
-      },
-      styles = {
-        comments = { italic = false, bold = false },
-        functions = { italic = false },
-        variables = { italic = false },
-      },
-    },
-  },
   { "EdenEast/nightfox.nvim" },
+  {
+    "sainnhe/sonokai",
+    lazy = false,
+    priority = 1000,
+    config = function()
+      -- Optionally configure and load the colorscheme
+    end,
+  },
 
   {
     "LazyVim/LazyVim",
