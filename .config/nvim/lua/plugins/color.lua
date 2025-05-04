@@ -1,6 +1,5 @@
 return {
 
-  { "EdenEast/nightfox.nvim" },
   {
     "craftzdog/solarized-osaka.nvim",
     lazy = false,
@@ -22,8 +21,8 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      --colorscheme = "nightfox",
-      colorscheme = "solarized-osaka",
+      --colorscheme = "solarized-osaka",
+      colorscheme = "onedark",
     },
   },
 }
