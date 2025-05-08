@@ -115,16 +115,22 @@ button:hover {
 
 #clock {
     background-color: #64727D;
+    border-radius: 10;
+    background-color: transparent;
 }
 
 #battery {
     background-color: #ffffff;
     color: #000000;
+    border-radius: 10;
+    background-color: transparent;
 }
 
 #battery.charging, #battery.plugged {
     color: #ffffff;
     background-color: #26A65B;
+    border-radius: 10;
+    background-color: transparent;
 }
 
 @keyframes blink {
@@ -147,21 +153,29 @@ button:hover {
 
 #power-profiles-daemon {
     padding-right: 15px;
+    border-radius: 10;
+    background-color: transparent;
 }
 
 #power-profiles-daemon.performance {
     background-color: #f53c3c;
     color: #ffffff;
+    border-radius: 10;
+    background-color: transparent;
 }
 
 #power-profiles-daemon.balanced {
     background-color: #2980b9;
     color: #ffffff;
+    border-radius: 10;
+    background-color: transparent;
 }
 
 #power-profiles-daemon.power-saver {
     background-color: #2ecc71;
     color: #000000;
+    border-radius: 10;
+    background-color: transparent;
 }
 
 label:focus {
@@ -171,10 +185,14 @@ label:focus {
 #cpu {
     background-color: #2ecc71;
     color: #000000;
+    border-radius: 10;
+    background-color: transparent;
 }
 
 #memory {
     background-color: #9b59b6;
+    border-radius: 10;
+    background-color: transparent;
 }
 
 #disk {
@@ -196,55 +214,81 @@ label:focus {
 #pulseaudio {
     background-color: #f1c40f;
     color: #000000;
+    border-radius: 10;
+    background-color: transparent;
+
 }
 
 #pulseaudio.muted {
     background-color: #90b1b1;
     color: #2a5c45;
+    border-radius: 10;
+    background-color: transparent;
+
 }
 
 #wireplumber {
     background-color: #fff0f5;
     color: #000000;
+    border-radius: 10;
+    background-color: transparent;
 }
 
 #wireplumber.muted {
     background-color: #f53c3c;
+    border-radius: 10;
+    background-color: transparent;
 }
 
 #custom-media {
     background-color: #66cc99;
     color: #2a5c45;
     min-width: 100px;
+    border-radius: 10;
+    background-color: transparent;
 }
 
 #custom-media.custom-spotify {
     background-color: #66cc99;
+    border-radius: 10;
+    background-color: transparent;
 }
 
 #custom-media.custom-vlc {
     background-color: #ffa000;
+    border-radius: 10;
+    background-color: transparent;
 }
 
 #temperature {
     background-color: #f0932b;
+    border-radius: 10;
+    background-color: transparent;
 }
 
 #temperature.critical {
     background-color: #eb4d4b;
+    border-radius: 10;
+    background-color: transparent;
 }
 
 #tray {
     background-color: #2980b9;
+    border-radius: 10;
+    background-color: transparent;
 }
 
 #tray > .passive {
     -gtk-icon-effect: dim;
+    border-radius: 10;
+    background-color: transparent;
 }
 
 #tray > .needs-attention {
     -gtk-icon-effect: highlight;
     background-color: #eb4d4b;
+    border-radius: 10;
+    background-color: transparent;
 }
 
 #idle_inhibitor {
