@@ -50,6 +50,7 @@ button:hover {
 /* you can set a style on hover for any module like this */
 #pulseaudio:hover {
     background-color: #a37800;
+    color: white;
 }
 
 #workspaces button {
@@ -120,14 +121,14 @@ button:hover {
 }
 
 #battery {
-    background-color: #ffffff;
-    color: #000000;
+    background-color: #64727D;
+    color: white;
     border-radius: 10;
     background-color: transparent;
 }
 
 #battery.charging, #battery.plugged {
-    color: #ffffff;
+    color: white;
     background-color: #26A65B;
     border-radius: 10;
     background-color: transparent;
@@ -143,7 +144,7 @@ button:hover {
 /* Using steps() instead of linear as a timing function to limit cpu usage */
 #battery.critical:not(.charging) {
     background-color: #f53c3c;
-    color: #ffffff;
+    color: white;
     animation-name: blink;
     animation-duration: 0.5s;
     animation-timing-function: steps(12);
@@ -159,21 +160,21 @@ button:hover {
 
 #power-profiles-daemon.performance {
     background-color: #f53c3c;
-    color: #ffffff;
+    color:white ;
     border-radius: 10;
     background-color: transparent;
 }
 
 #power-profiles-daemon.balanced {
     background-color: #2980b9;
-    color: #ffffff;
+    color: white;
     border-radius: 10;
     background-color: transparent;
 }
 
 #power-profiles-daemon.power-saver {
     background-color: #2ecc71;
-    color: #000000;
+    color: white;
     border-radius: 10;
     background-color: transparent;
 }
@@ -184,7 +185,7 @@ label:focus {
 
 #cpu {
     background-color: #2ecc71;
-    color: #000000;
+    color:white;
     border-radius: 10;
     background-color: transparent;
 }
@@ -213,7 +214,7 @@ label:focus {
 
 #pulseaudio {
     background-color: #f1c40f;
-    color: #000000;
+    color: white;
     border-radius: 10;
     background-color: transparent;
 
@@ -221,7 +222,7 @@ label:focus {
 
 #pulseaudio.muted {
     background-color: #90b1b1;
-    color: #2a5c45;
+    color: white;
     border-radius: 10;
     background-color: transparent;
 
