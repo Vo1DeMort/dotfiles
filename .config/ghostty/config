@@ -1,6 +1,4 @@
-theme = "nightfox"
-#theme = "catppuccin-mocha"
-
+theme = "Solarized Dark - Patched"
 
 # window
 window-decoration =none
@@ -15,3 +13,4 @@ font-size = 14
 #padding
 window-padding-x=0
 window-padding-y=0
+
