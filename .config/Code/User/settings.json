@@ -287,6 +287,9 @@
       ]
     }
   ],
-  "workbench.colorTheme": "One Dark Pro Darker",
-  "diffEditor.experimental.useTrueInlineView": true
+  "workbench.colorTheme": "Solarized Dark",
+  "diffEditor.experimental.useTrueInlineView": true,
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "dart.previewFlutterUiGuides": true,
+  "dart.previewFlutterUiGuidesCustomTracking": true
 }
