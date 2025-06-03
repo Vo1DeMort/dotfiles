@@ -1,7 +1,4 @@
-#theme = "Kanagawa Wave"
-#theme = "rose-pine-moon"
-#theme = "GruvboxDark"
-theme = "Oxocarbon"
+theme = "GruvboxDark"
 
 # window
 window-decoration =none
