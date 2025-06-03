@@ -1,6 +1,7 @@
 #theme = "Kanagawa Wave"
 #theme = "rose-pine-moon"
-theme = "gruvbox-material"
+#theme = "GruvboxDark"
+theme = "Oxocarbon"
 
 # window
 window-decoration =none
@@ -16,3 +17,5 @@ font-size = 14
 window-padding-x=0
 window-padding-y=0
 
+# line spacing
+adjust-cell-height = "2"
