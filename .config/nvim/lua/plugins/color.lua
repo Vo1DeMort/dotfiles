@@ -10,27 +10,27 @@ return {
             vim.g.gruvbox_material_foreground = "original"
         end,
     },
+
     {
-        "neanias/everforest-nvim",
-        version = false,
+        "maxmx03/solarized.nvim",
         lazy = false,
         priority = 1000,
-    },
-    {
-        "sainnhe/sonokai",
-        lazy = false,
-        priority = 1000,
-        config = function()
-            -- Optionally configure and load the colorscheme
-            -- directly inside the plugin declaration.
-            vim.g.sonokai_enable_italic = true
+        opts = {
+            variant = "autumn", -- "spring" | "summer" | "autumn" | "winter" (default)
+            transparent = {
+                enabled = true, -- Master switch to enable transparency
+            },
+        },
+        config = function(_, opts)
+            vim.o.termguicolors = true
+            vim.o.background = "dark"
+            require("solarized").setup(opts)
         end,
     },
-
     {
         "LazyVim/LazyVim",
         opts = {
-            colorscheme = "sonokai",
+            colorscheme = "solarized",
         },
     },
 }
