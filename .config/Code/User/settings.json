@@ -287,9 +287,10 @@
       ]
     }
   ],
-  "workbench.colorTheme": "Panda Syntax",
   "diffEditor.experimental.useTrueInlineView": true,
   "editor.unicodeHighlight.nonBasicASCII": false,
   "dart.previewFlutterUiGuides": true,
-  "dart.previewFlutterUiGuidesCustomTracking": true
+  "dart.previewFlutterUiGuidesCustomTracking": true,
+  "workbench.colorTheme": "Monokai Pro (Filter Machine)",
+  "workbench.iconTheme": "Monokai Pro (Filter Machine) Icons"
 }

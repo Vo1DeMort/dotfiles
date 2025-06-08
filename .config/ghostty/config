@@ -1,4 +1,4 @@
-theme = "Builtin Solarized Dark"
+theme = "Monokai Pro Machine"
 
 # window
 window-decoration =none
@@ -15,4 +15,4 @@ window-padding-x=0
 window-padding-y=0
 
 # line spacing
-adjust-cell-height = "2"
+adjust-cell-height = "4"
