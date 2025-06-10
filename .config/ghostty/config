@@ -1,18 +1,18 @@
-theme = "Monokai Pro Machine"
+theme = "GruvboxDark"
 
 # window
 window-decoration =none
 
 # backgroud
-background-opacity = 0.9
-background-blur = true
+# background-opacity = 0.9
+# background-blur = true
 
 # font
 font-size = 14
 
 #padding
-window-padding-x=0
-window-padding-y=0
+window-padding-x=0,0
+window-padding-y=0,0
 
 # line spacing
 adjust-cell-height = "4"
