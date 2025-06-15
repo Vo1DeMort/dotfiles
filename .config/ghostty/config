@@ -1,4 +1,4 @@
-theme = "GruvboxDark"
+theme = "Solarized Dark - Patched"
 
 # window
 window-decoration =none
@@ -11,8 +11,8 @@ window-decoration =none
 font-size = 14
 
 #padding
-window-padding-x=0,0
-window-padding-y=0,0
+window-padding-x = 0,0
+window-padding-y = 0,0
 
 # line spacing
 adjust-cell-height = "4"

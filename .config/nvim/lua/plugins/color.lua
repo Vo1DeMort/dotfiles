@@ -11,11 +11,27 @@ return {
             vim.g.gruvbox_material_transparent_background = "0"
         end,
     },
-
+    {
+        "maxmx03/solarized.nvim",
+        lazy = false,
+        priority = 1000,
+        opts = {
+            transparent = {
+                enable = false,
+            },
+            variant = "autumn", -- "spring" | "summer" | "autumn" | "winter" (default)
+        },
+        config = function(_, opts)
+            vim.o.termguicolors = true
+            vim.o.background = "dark"
+            require("solarized").setup(opts)
+        end,
+    },
     {
         "LazyVim/LazyVim",
         opts = {
-            colorscheme = "gruvbox-material",
+            -- habamax
+            colorscheme = "solarized",
         },
     },
 }

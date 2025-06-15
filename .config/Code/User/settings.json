@@ -291,6 +291,5 @@
   "editor.unicodeHighlight.nonBasicASCII": false,
   "dart.previewFlutterUiGuides": true,
   "dart.previewFlutterUiGuidesCustomTracking": true,
-  "workbench.iconTheme": "Monokai Pro (Filter Machine) Icons",
-  "workbench.colorTheme": "Gruvbox Dark Hard"
+  "workbench.colorTheme": "Solarized Dark"
 }
