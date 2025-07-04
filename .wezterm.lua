@@ -64,9 +64,9 @@ config.hide_tab_bar_if_only_one_tab = true
 config.scrollback_lines = 5000
 
 -- Enable Wayland support if using Wayland
-if wezterm.target_triple == "x86_64-unknown-linux-gnu" then
-	config.enable_wayland = true
-end
+-- if wezterm.target_triple == "x86_64-unknown-linux-gnu" then
+-- 	config.enable_wayland = true
+-- end
 
 -- multiplexer config
 -- ctl + space to trigger

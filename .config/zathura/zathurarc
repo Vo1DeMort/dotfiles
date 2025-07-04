@@ -4,22 +4,22 @@ set recolor true
 set recolor-keephue true
 
 #NOTE: gruvbox theme
-# set default-bg "#282828"        # Gruvbox dark background
-# set default-fg "#ebdbb2"        # Gruvbox light text
-#
-# set recolor-lightcolor "#282828"
-# set recolor-darkcolor "#ebdbb2"
-#
-# set statusbar-bg "#3c3836"
-# set statusbar-fg "#fabd2f"
-#
-# set inputbar-bg "#3c3836"
-# set inputbar-fg "#fabd2f"
-#
-# set completion-bg "#3c3836"
-# set completion-fg "#fabd2f"
-# set notification-bg "#3c3836"
-# set notification-fg "#fabd2f"
+set default-bg "#282828"        # Gruvbox dark background
+set default-fg "#ebdbb2"        # Gruvbox light text
+
+set recolor-lightcolor "#282828"
+set recolor-darkcolor "#ebdbb2"
+
+set statusbar-bg "#3c3836"
+set statusbar-fg "#fabd2f"
+
+set inputbar-bg "#3c3836"
+set inputbar-fg "#fabd2f"
+
+set completion-bg "#3c3836"
+set completion-fg "#fabd2f"
+set notification-bg "#3c3836"
+set notification-fg "#fabd2f"
 
 
 #NOTE: solazied theme
@@ -60,23 +60,23 @@ set recolor-keephue true
 # set notification-fg "#83c092"  # Soft teal for notification text
 
 # NOTE: Gruvbox Light Medium Theme
-set default-bg      "#f2e5bc"  # Medium contrast background
-set default-fg      "#3c3836"  # Standard dark foreground
-
-set recolor-lightcolor "#f2e5bc"  # Light background (medium variant)
-set recolor-darkcolor  "#3c3836"  # Gruvbox dark text
-
-set statusbar-bg    "#e0cfa9"  # Bar background (darker than main)
-set statusbar-fg    "#504945"  # Muted dark grey
-
-set inputbar-bg     "#e0cfa9"  # Match status bar
-set inputbar-fg     "#af3a03"  # Deep orange (accent)
-
-set completion-bg   "#e0cfa9"  # Completion box background
-set completion-fg   "#79740e"  # Gruvbox olive
-
-set notification-bg "#e0cfa9"  # Notification background
-set notification-fg "#9d0006"  # Gruvbox red for alerts
+# set default-bg      "#f2e5bc"  # Medium contrast background
+# set default-fg      "#3c3836"  # Standard dark foreground
+#
+# set recolor-lightcolor "#f2e5bc"  # Light background (medium variant)
+# set recolor-darkcolor  "#3c3836"  # Gruvbox dark text
+#
+# set statusbar-bg    "#e0cfa9"  # Bar background (darker than main)
+# set statusbar-fg    "#504945"  # Muted dark grey
+#
+# set inputbar-bg     "#e0cfa9"  # Match status bar
+# set inputbar-fg     "#af3a03"  # Deep orange (accent)
+#
+# set completion-bg   "#e0cfa9"  # Completion box background
+# set completion-fg   "#79740e"  # Gruvbox olive
+#
+# set notification-bg "#e0cfa9"  # Notification background
+# set notification-fg "#9d0006"  # Gruvbox red for alerts
 
 
 # NOTE: nightfox

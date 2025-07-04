@@ -291,5 +291,9 @@
   "editor.unicodeHighlight.nonBasicASCII": false,
   "dart.previewFlutterUiGuides": true,
   "dart.previewFlutterUiGuidesCustomTracking": true,
-  "workbench.colorTheme": "Solarized Dark"
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "chat.commandCenter.enabled": false,
+  "workbench.editor.enablePreview": false
 }
