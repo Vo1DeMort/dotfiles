@@ -1,22 +1,17 @@
 return {
 
     {
-        "sainnhe/gruvbox-material",
+        "folke/tokyonight.nvim",
         lazy = false,
         priority = 1000,
         config = function()
-            vim.g.gruvbox_material_enable_italic = true
-            vim.g.gruvbox_material_background = "medium"
-            vim.g.gruvbox_material_foreground = "original"
-            vim.g.gruvbox_material_transparent_background = "0"
-        end,
-    },
-    {
-        "navarasu/onedark.nvim",
-        priority = 1000, -- make sure to load this before all the other start plugins
-        config = function()
-            require("onedark").setup({
-                style = "darker", -- darker, deep
+            require("tokyonight").setup({
+                style = "night",
+                styles = {
+                    keywords = { italic = false },
+                    sidebar = "normal",
+                    floats = "normal",
+                },
             })
         end,
     },
@@ -24,7 +19,7 @@ return {
     {
         "LazyVim/LazyVim",
         opts = {
-            colorscheme = "gruvbox-material",
+            colorscheme = "tokyonight",
         },
     },
 }
