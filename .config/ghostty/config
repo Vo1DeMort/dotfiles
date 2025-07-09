@@ -1,4 +1,4 @@
-theme = "GruvboxDark"
+theme = "tokyonight_night"
 
 # window
 window-decoration =none

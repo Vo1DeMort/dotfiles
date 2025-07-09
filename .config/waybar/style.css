@@ -1,4 +1,5 @@
-@import "mocha.css";
+/*@import "mocha.css";*/
+@import "tokyonight_night.css";
 
 * {
   font-family: "JetBrains Mono";
