@@ -15,11 +15,11 @@ return {
             })
         end,
     },
-    --{ "ellisonleao/gruvbox.nvim" },
 
     {
         "LazyVim/LazyVim",
         opts = {
+            -- catppuccin-frappe
             colorscheme = "tokyonight",
         },
     },
