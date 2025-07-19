@@ -15,12 +15,14 @@ return {
             })
         end,
     },
+    { "ellisonleao/gruvbox.nvim", priority = 1000, config = true, opts = ... },
 
     {
         "LazyVim/LazyVim",
         opts = {
             -- catppuccin-frappe
             colorscheme = "tokyonight",
+            --colorscheme = "bearded_arc",
         },
     },
 }
