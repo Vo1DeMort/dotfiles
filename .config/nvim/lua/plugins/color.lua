@@ -19,6 +19,7 @@ return {
         "olimorris/onedarkpro.nvim",
         priority = 1000, -- Ensure it loads first
     },
+    { "xStormyy/bearded-theme.nvim" },
 
     {
         "LazyVim/LazyVim",
@@ -27,4 +28,5 @@ return {
             --colorscheme = "vaporwave",
         },
     },
+    -- https://chatgpt.com/share/688b8723-30d8-8006-90cb-ed4edf121ab3
 }
