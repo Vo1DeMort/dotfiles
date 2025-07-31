@@ -15,14 +15,16 @@ return {
             })
         end,
     },
-    { "ellisonleao/gruvbox.nvim", priority = 1000, config = true, opts = ... },
+    {
+        "olimorris/onedarkpro.nvim",
+        priority = 1000, -- Ensure it loads first
+    },
 
     {
         "LazyVim/LazyVim",
         opts = {
-            -- catppuccin-frappe
             colorscheme = "tokyonight",
-            --colorscheme = "bearded_arc",
+            --colorscheme = "vaporwave",
         },
     },
 }

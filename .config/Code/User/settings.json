@@ -295,6 +295,6 @@
   "workbench.layoutControl.enabled": false,
   "chat.commandCenter.enabled": false,
   "workbench.editor.enablePreview": false,
-  "workbench.colorTheme": "Tokyo Night",
+  "workbench.colorTheme": "Bearded Theme Arc",
   "catppuccin.italicKeywords": false
 }

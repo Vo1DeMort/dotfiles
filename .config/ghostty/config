@@ -4,8 +4,8 @@ theme = "tokyonight_night"
 window-decoration =none
 
 # backgroud
-# background-opacity = 0.9
-# background-blur = true
+background-opacity = 0.9
+background-blur = true
 
 # font
 font-size = 14
