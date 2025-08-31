@@ -1,10 +1,10 @@
-theme = "nightfox"
+theme = "Builtin Solarized Dark"
 
 # window
 window-decoration =none
 
 # backgroud
-background-opacity = 1
+background-opacity = 0.9
 background-blur = true
 
 # font

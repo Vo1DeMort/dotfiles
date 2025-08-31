@@ -22,44 +22,44 @@ set recolor-keephue true
 # set notification-fg "#fabd2f"
 
 # NOTE: Tokyo Night Night theme
-set default-bg "#1a1b26"        # Tokyo Night Night background
-set default-fg "#c0caf5"        # Light blue text
-
-set recolor-lightcolor "#1a1b26"
-set recolor-darkcolor  "#c0caf5"
-
-set statusbar-bg "#292e42"      # Slightly lighter than bg
-set statusbar-fg "#7aa2f7"      # Blue
-
-set inputbar-bg "#292e42"
-set inputbar-fg "#7dcfff"       # Cyan
-
-set completion-bg "#292e42"
-set completion-fg "#c0caf5"
-
-set notification-bg "#292e42"
-set notification-fg "#f7768e"   # Soft red
+# set default-bg "#1a1b26"        # Tokyo Night Night background
+# set default-fg "#c0caf5"        # Light blue text
+#
+# set recolor-lightcolor "#1a1b26"
+# set recolor-darkcolor  "#c0caf5"
+#
+# set statusbar-bg "#292e42"      # Slightly lighter than bg
+# set statusbar-fg "#7aa2f7"      # Blue
+#
+# set inputbar-bg "#292e42"
+# set inputbar-fg "#7dcfff"       # Cyan
+#
+# set completion-bg "#292e42"
+# set completion-fg "#c0caf5"
+#
+# set notification-bg "#292e42"
+# set notification-fg "#f7768e"   # Soft red
 
 
 
 
 #NOTE: solazied theme
-# set default-bg "#002b36"        # Solarized dark background
-# set default-fg "#839496"        # Solarized light text
-#
-# set recolor-lightcolor "#002b36"   # Solarized dark color for light mode
-# set recolor-darkcolor "#839496"    # Solarized light color for dark mode
-#
-# set statusbar-bg "#073642"    # Solarized status bar background
-# set statusbar-fg "#93a1a1"    # Solarized status bar text
-#
-# set inputbar-bg "#073642"     # Solarized input bar background
-# set inputbar-fg "#93a1a1"     # Solarized input bar text
-#
-# set completion-bg "#073642"    # Solarized completion background
-# set completion-fg "#93a1a1"    # Solarized completion text
-# set notification-bg "#073642"  # Solarized notification background
-# set notification-fg "#93a1a1"  # Solarized notification text
+set default-bg "#002b36"        # Solarized dark background
+set default-fg "#839496"        # Solarized light text
+
+set recolor-lightcolor "#002b36"   # Solarized dark color for light mode
+set recolor-darkcolor "#839496"    # Solarized light color for dark mode
+
+set statusbar-bg "#073642"    # Solarized status bar background
+set statusbar-fg "#93a1a1"    # Solarized status bar text
+
+set inputbar-bg "#073642"     # Solarized input bar background
+set inputbar-fg "#93a1a1"     # Solarized input bar text
+
+set completion-bg "#073642"    # Solarized completion background
+set completion-fg "#93a1a1"    # Solarized completion text
+set notification-bg "#073642"  # Solarized notification background
+set notification-fg "#93a1a1"  # Solarized notification text
 
 # NOTE: Solarized Osaka Theme
 # set default-bg      "#001f27"  # Osaka deep background
