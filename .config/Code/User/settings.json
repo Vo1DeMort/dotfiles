@@ -296,5 +296,6 @@
   "chat.commandCenter.enabled": false,
   "workbench.editor.enablePreview": false,
   "workbench.colorTheme": "Bearded Theme Arc",
-  "catppuccin.italicKeywords": false
+  "catppuccin.italicKeywords": false,
+  "editor.lineHeight": 2
 }

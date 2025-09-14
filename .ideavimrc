@@ -1,0 +1,22 @@
+set scrolloff=5
+set incsearch
+set relativenumber
+
+" Don't use Ex mode, use Q for formatting.
+map Q gq
+
+
+" Highlight copied text
+Plug 'machakann/vim-highlightedyank'
+" Commentary plugin
+Plug 'tpope/vim-commentary'
+
+
+" change buffers
+nnoremap H gT
+nnoremap L gt
+
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
