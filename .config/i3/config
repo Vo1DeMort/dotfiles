@@ -1,4 +1,4 @@
-set $mod Mod1
+set $mod Mod4
 
 font JetBrains Mono 8
 
@@ -20,7 +20,7 @@ floating_modifier $mod
 bindsym $mod+Return exec wezterm
 
 # kill focused window
-bindsym $mod+Shift+q kill
+bindsym $mod+q kill
 
 
 # change focus
@@ -134,20 +134,19 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # set wallpaper with feh
-exec --no-startup-id feh --bg-scale ~/Pictures/greenLeaves.jpg
+exec --no-startup-id feh --bg-scale ~/Pictures/cat.png
 
 # start picom
 exec --no-startup-id picom
 
 #bindsym $mod+d exec rofi -show drun -display-drun "Applications"
-bindsym $mod+space exec rofi -show drun -display-drun "Applications"
+bindsym $mod1+space exec rofi -show drun -display-drun "Applications"
 
 # start redshift
 exec --no-startup-id redshift -O 3600
 
 
-#bindsym Mod4+e exec --no-startup-id wezterm run yazi
-bindsym Mod4+e exec --no-startup-id ghostty -e ~/.cargo/bin/yazi
+bindsym mod1+e exec --no-startup-id ghostty -e ~/.cargo/bin/yazi
 
 #i3 lock screen (with black color)
 # -i ~/path/to/pic
