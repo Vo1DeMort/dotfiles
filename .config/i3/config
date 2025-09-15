@@ -68,8 +68,6 @@ bindsym $mod+e layout toggle split
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
 
-# change focus between tiling / floating windows
-#bindsym $mod+space focus mode_toggle
 
 # focus the parent container
 bindsym $mod+a focus parent
@@ -139,8 +137,8 @@ exec --no-startup-id feh --bg-scale ~/Pictures/cat.png
 # start picom
 exec --no-startup-id picom
 
-#bindsym $mod+d exec rofi -show drun -display-drun "Applications"
-bindsym $mod1+space exec rofi -show drun -display-drun "Applications"
+# menu
+bindsym mod1+space exec rofi -show drun -display-drun "Applications"
 
 # start redshift
 exec --no-startup-id redshift -O 3600
@@ -166,7 +164,7 @@ exec_always --no-startup-id sh -c "killall -q polybar; while pgrep -x polybar >/
 
 
 # toggle keyboard; brumese and english with super + space
-exec --no-startup-id setxkbmap -layout us,mm -option grp:win_space_toggle
+exec --no-startup-id setxkbmap -layout us,mm -option grp:ctrl_space_toggle
 
 # screen shot -for ubuntu : doesn't work by default
 bindsym Print exec --no-startup-id scrot ~/Pictures/screenshots/%Y-%m-%d_%H-%M-%S.png
