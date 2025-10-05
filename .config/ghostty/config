@@ -1,4 +1,4 @@
-theme = "Builtin Solarized Dark"
+theme = "catppuccin-macchiato"
 
 # window
 window-decoration =none

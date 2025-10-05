@@ -13,11 +13,17 @@ return {
             require("solarized").setup(opts)
         end,
     },
+    {
+        "olimorris/onedarkpro.nvim",
+        priority = 1000, -- Ensure it loads first
+    },
+    { "Shatur/neovim-ayu" },
+    { "ellisonleao/gruvbox.nvim", priority = 1000, config = true, opts = ... },
 
     {
         "LazyVim/LazyVim",
         opts = {
-            colorscheme = "solarized",
+            colorscheme = "catppuccin-macchiato",
         },
     },
 }
