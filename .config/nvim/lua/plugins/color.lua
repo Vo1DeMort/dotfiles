@@ -19,11 +19,17 @@ return {
     },
     { "Shatur/neovim-ayu" },
     { "ellisonleao/gruvbox.nvim", priority = 1000, config = true, opts = ... },
+    -- Using lazy.nvim
+    {
+        "deparr/tairiki.nvim",
+        lazy = false,
+        priority = 1000, -- recommended if you use tairiki as your default theme
+    },
 
     {
         "LazyVim/LazyVim",
         opts = {
-            colorscheme = "catppuccin-macchiato",
+            colorscheme = "ayu-dark",
         },
     },
 }

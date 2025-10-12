@@ -297,5 +297,7 @@
   "workbench.editor.enablePreview": false,
   "workbench.colorTheme": "Catppuccin Macchiato",
   "catppuccin.italicKeywords": false,
-  "editor.lineHeight": 2
+  "editor.lineHeight": 2,
+  "workbench.activityBar.location": "hidden",
+  "window.menuBarVisibility": "compact"
 }
