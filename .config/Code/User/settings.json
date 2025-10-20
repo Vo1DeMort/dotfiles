@@ -295,7 +295,7 @@
   "workbench.layoutControl.enabled": false,
   "chat.commandCenter.enabled": false,
   "workbench.editor.enablePreview": false,
-  "workbench.colorTheme": "Catppuccin Macchiato",
+  "workbench.colorTheme": "Ayu Dark",
   "catppuccin.italicKeywords": false,
   "editor.lineHeight": 2,
   "workbench.activityBar.location": "hidden",
