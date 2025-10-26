@@ -1,4 +1,7 @@
 
+[manager]
+editor = "nvim"
+
 [rules]
 # Rule for opening PDF files
 "*.pdf" = "setsid evince {file} >/dev/null 2>&1 &"
