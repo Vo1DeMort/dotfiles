@@ -13,3 +13,6 @@ vim.opt.foldmethod = "expr"
 vim.opt.foldexpr = "nvim_treesitter#foldexpr()"
 vim.opt.foldlevel = 99 -- open everything except what you explicitly close
 vim.opt.foldenable = true
+
+-- Press 'jj' quickly to exit insert mode
+vim.keymap.set("i", "jj", "<Esc>", { desc = "Exit insert mode with jj" })
